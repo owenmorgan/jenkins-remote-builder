@@ -99,9 +99,7 @@ QUIET=${QUIET:-0}
 TRIGGERURL="${HOST}/job/${JOBNAME}/buildWithParameters?${JOBPARAM}"
 
 if [ $QUIET -eq 0 ];then
-    info "Making request to trigger $JOBNAME job at: "
-    echo "     ${TRIGGERURL}"
-    info ""
+    info "Making request to trigger $JOBNAME job."
 fi
 
 TMP=`curl -s -D - -X POST "$TRIGGERURL"`
