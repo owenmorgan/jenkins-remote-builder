@@ -2,7 +2,7 @@
 
 ##Example
 
-    jenkins=https://user:pass@jenkins.mydomain.com
+    jenkins=https://user:pass@jenkins.mydomain.com:8080
     jenkins_job=MyApp-Deploy
 
     environment=dev
