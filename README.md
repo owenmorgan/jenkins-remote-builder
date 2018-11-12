@@ -1,6 +1,6 @@
-#Build Jenkins Jobs Remotely
+# Build Jenkins Jobs Remotely
 
-##Example
+## Example
 
     jenkins=https://user:pass@jenkins.mydomain.com:8080
     jenkins_job=MyApp-Deploy
@@ -15,7 +15,7 @@
                 -p "ENVIRONMENT=${environment}&APPLICATION=${application}&REVISION=${revision}"
 
 
-##Usage:
+## Usage:
 
     -h HOST     | --host=HOST                       Jenkins host
     -j JOBNAME  | --jobname=test-build-job          The name of the jenkins job to trigger
@@ -23,6 +23,6 @@
     -q          | --quiet                           Don't output any status messages
 
 
-##TODO:
+## TODO:
 
 * Timeout
